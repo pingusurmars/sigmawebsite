@@ -1,7 +1,7 @@
 {
   "name": "epicsveltewebsite",
   "version": "1.0.0",
-  "description": "",
+  "description": "PinguSurMars's website but remade with Svelte & Bun",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
