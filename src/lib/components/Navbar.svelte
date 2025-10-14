@@ -4,6 +4,7 @@
     import '@tailwindplus/elements';
     import pfp from '$lib/assets/favicon-32x32.png'
 </script>
+
 <nav class="relative bg-primary after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
