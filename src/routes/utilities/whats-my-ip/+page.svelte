@@ -28,7 +28,7 @@
     <p class="text-white">ISP: {ipInfo.isp}</p>
     <p class="text-white">ASN: {ipInfo.as}</p>
 
-    <span id="mango" class="py-4" style="display: none">Congrats on supporting IPv6 and welcome to the future's internet!</span>
+    <span id="mango" class="pt-4" style="display: none">Congrats on supporting IPv6 and welcome to the future's internet!</span>
     <p class="text-white py-1">
         If you'd like to get more info about your IP address, visit
         <a class="underline decoration-1" href="https://ipinfo.io/{ipAddr}">this</a> website (info is provided as-is and may be inaccurate)
