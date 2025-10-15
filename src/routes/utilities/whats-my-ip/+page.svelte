@@ -20,6 +20,7 @@
     <p class="text-white py-6 text-xl decoration-1">
         Your IP address is <strong>{ipAddr}</strong>
     </p>
+    <p class="text-white py-4">Here's some info from <a href="http://ip-api.com">IP-API.com</a></p>
     <p class="text-white py-2">City: {ipInfo.city}</p>
     <p class="text-white">ZIP Code: {ipInfo.zip}</p>
     <p class="text-white">Region: {ipInfo.regionName}</p>
