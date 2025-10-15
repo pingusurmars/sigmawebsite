@@ -19,8 +19,6 @@
     <link href={favicon16} rel="icon" sizes="16x16" type="image/png">
     <link href={manifest} rel="manifest">
 </svelte:head>
-{#key page.url}
-    <Navbar/>
-{/key}
+<Navbar/>
 {@render children?.()}
 <Footer/>
