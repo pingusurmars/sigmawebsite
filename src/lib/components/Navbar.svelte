@@ -54,13 +54,13 @@
                                          popover>
                                     <div class="py-1">
                                         <a class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden"
-                                           href="#">What's
+                                           href="/utilities/whats-my-ip/">What's
                                             my IP?</a>
                                         <a class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden"
-                                           href="#">What's
+                                           href="/utilities/whats-my-user-agent/">What's
                                             my User Agent</a>
                                         <a class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden"
-                                           href="#">What
+                                           href="/utilities/request-headers/">What
                                             are my request headers?</a>
                                     </div>
                                 </el-menu>
@@ -103,7 +103,7 @@
                            href="#">What's
                             my User Agent</a>
                         <a class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden"
-                           href="#">What
+                           href="/utilities/request-headers/">What
                             are my request headers?</a>
                     </div>
                 </el-menu>
