@@ -31,6 +31,7 @@
                         <a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Home</a>
                         <a href="/projects/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Projects</a>
                         <a href="/aboutme/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">About Me</a>
+                        <div class="relative">
                         <el-dropdown class="inline-block">
                             <button class="inline-flex text-gray-300 hover:bg-white/5 hover:text-white w-full justify-center gap-x-1.5 rounded-md px-3 py-2 text-sm">
                                 Utilities
@@ -39,7 +40,7 @@
                                 </svg>
                             </button>
 
-                            <el-menu anchor="bottom end" popover class="w-56 origin-top-right rounded-md bg-primary outline-1 -outline-offset-1 outline-white/10 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
+                            <el-menu anchor="bottom end" popover class="w-56 rounded-md bg-primary outline-1 -outline-offset-1 outline-white/10 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
                                 <div class="py-1">
                                     <a href="#" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">What's my IP?</a>
                                     <a href="#" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">What's my User Agent</a>
@@ -47,6 +48,7 @@
                                 </div>
                             </el-menu>
                         </el-dropdown>
+                        </div>
                         <a href="/donate/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Donate</a>
                     </div>
                 </div>

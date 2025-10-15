@@ -1,6 +1,6 @@
 <script lang="ts" module>
-    import { createHighlighterCoreSync } from 'shiki/core';
-    import { createJavaScriptRegexEngine } from 'shiki/engine/javascript';
+    import {createHighlighterCoreSync} from 'shiki/core';
+    import {createJavaScriptRegexEngine} from 'shiki/engine/javascript';
     import console from 'shiki/langs/console.mjs';
     import css from 'shiki/langs/css.mjs';
     import html from 'shiki/langs/html.mjs';
