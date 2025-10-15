@@ -5,7 +5,7 @@
     import '@tailwindplus/elements';
 </script>
 
-<footer class="bg-primary">
+<footer class="bg-primary flex flex-col min-h-screen flex-grow">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
