@@ -5,10 +5,8 @@
     import appleicon from '$lib/assets/apple-touch-icon.png';
     import manifest from '$lib/assets/site.webmanifest';
     import "$lib/assets/main.css";
-    import {page} from '$app/state';
     import Footer from "$lib/components/Footer.svelte";
     import Navbar from "$lib/components/Navbar.svelte";
-
     let {children} = $props();
 </script>
 
