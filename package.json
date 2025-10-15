@@ -29,6 +29,7 @@
 		"@sveltejs/adapter-cloudflare": "^7.2.4",
 		"@tailwindcss/cli": "^4.1.14",
 		"@tailwindplus/elements": "^1.0.17",
+		"shiki": "^3.13.0",
 		"tailwindcss": "^4.1.14"
 	}
 }
