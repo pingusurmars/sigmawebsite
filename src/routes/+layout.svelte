@@ -9,18 +9,18 @@
     import Footer from "$lib/components/Footer.svelte";
     import Navbar from "$lib/components/Navbar.svelte";
 
-    let { children } = $props();
+    let {children} = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
-    <link rel="apple-touch-icon" sizes="180x180" href={appleicon}>
-    <link rel="icon" type="image/png" sizes="32x32" href={favicon32}>
-    <link rel="icon" type="image/png" sizes="16x16" href={favicon16}>
-    <link rel="manifest" href={manifest}>
+    <link href={favicon} rel="icon"/>
+    <link href={appleicon} rel="apple-touch-icon" sizes="180x180">
+    <link href={favicon32} rel="icon" sizes="32x32" type="image/png">
+    <link href={favicon16} rel="icon" sizes="16x16" type="image/png">
+    <link href={manifest} rel="manifest">
 </svelte:head>
 {#key page.url}
-    <Navbar />
+    <Navbar/>
 {/key}
 {@render children?.()}
-<Footer />
+<Footer/>

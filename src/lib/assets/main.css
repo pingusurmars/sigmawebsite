@@ -2,15 +2,16 @@
 @import '@skeletonlabs/skeleton';
 @import '@skeletonlabs/skeleton-svelte';
 @import '@skeletonlabs/skeleton/themes/cerberus';
+
 @theme {
     --color-primary: #26262c;
     --color-button-primary: #34343c;
 }
-body
-{
+body {
     background-color: rgb(38, 38, 44);
 }
-.margin-auto{
+
+.margin-auto {
     margin-top: auto;
 
 }
