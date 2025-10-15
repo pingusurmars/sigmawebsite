@@ -6,13 +6,13 @@
     if (ipAddr === null) {
         throw new Error('No IP address found. Something went (very) wrong.');
     }
-
     onMount(() => {
         const mango = document.getElementById('mango');
         if (ipAddr?.includes(':')) {
             mango?.removeAttribute('style');
         }
     });
+    const ipInfo = data.ipInfo;
 </script>
 
 <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -20,9 +20,17 @@
     <p class="text-white py-6 text-xl decoration-1">
         Your IP address is <strong>{ipAddr}</strong>
     </p>
-    <span id="mango" style="display: none">Congrats on using IPv6!</span>
+    <p class="text-white py-2">City: {ipInfo.city}</p>
+    <p class="text-white py-2">ZIP Code: {ipInfo.zip}</p>
+    <p class="text-white py-2">Region: {ipInfo.regionName}</p>
+    <p class="text-white py-2">Country: {ipInfo.country}</p>
+    <p class="text-white py-2">ISP: {ipInfo.isp}</p>
+    <p class="text-white py-2">ASN: {ipInfo.as}</p>
+
+    <span id="mango" style="display: none">Congrats on supporting IPv6 and welcome to the future's internet!</span>
+
     <p class="text-white py-1">
         If you'd like to get more info about your IP address, visit
-        <a class="underline decoration-1" href="https://ipinfo.io/{ipAddr}">this</a> website
+        <a class="underline decoration-1" href="https://ipinfo.io/{ipAddr}">this</a> website (info is provided as-is and may be inaccurate)
     </p>
 </div>
