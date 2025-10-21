@@ -76,11 +76,11 @@
 
     <el-disclosure class="block sm:hidden" hidden id="mobile-menu">
         <div class="space-y-1 px-2 pt-2 pb-3">
-            <a class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+            <a class="rounded-md px-3 py-2 text-sm text-gray-300 hover:bg-white/5 hover:text-white"
                href="/">Home</a>
-            <a class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+            <a class="rounded-md px-3 py-2 text-sm text-gray-300 hover:bg-white/5 hover:text-white"
                href="/projects/">Projects</a>
-            <a class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+            <a class="rounded-md px-3 py-2 text-sm text-gray-300 hover:bg-white/5 hover:text-white"
                href="/aboutme/">About
                 Me</a>
             <el-dropdown class="inline-block">
