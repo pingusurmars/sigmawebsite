@@ -15,4 +15,7 @@
         services</a> here and there on an old PC that I call my "server" (he's old but works OK-ish for what I do)</p>
     <p class="text-white py-4">That's pretty much it, feel free to look around here in the other pages! (it's not like I
         can prevent you from doing it)</p>
+
+    <p class="py-4 text-white">Also here's a random meme from my h5ai:</p>
+    <!-- TODO: Add the https://cdn.pingusurmars.xyz/random/ stuff that auto updates if its an image or a video -->
 </div>
