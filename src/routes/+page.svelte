@@ -1,5 +1,4 @@
 <script lang="ts">
-
 </script>
 
 
@@ -16,6 +15,9 @@
     <p class="text-white py-4">That's pretty much it, feel free to look around here in the other pages! (it's not like I
         can prevent you from doing it)</p>
 
-    <p class="py-4 text-white">Also here's a random meme from my h5ai:</p>
-    <!-- TODO: Add the https://cdn.pingusurmars.xyz/random/ stuff that auto updates if its an image or a video -->
+    <p class="py-4 text-white">Also here's a random file from my h5ai:</p>
+    <video style="width: 20%; height: 20%" src="https://cdn.pingusurmars.xyz/random/" controls>
+        <!-- SVELTE PLEASE REMOVE THE SUBTITLE REQUIREMENT NO DEAF PERSON IS GONNA COME UP AND WATCH SHITPOST KNOWING PERFECTLY WELL NOBODY CAPTIONS THAT ANYWAY -->
+    </video>
+    <p class="py-4 text-white">If this shows an error, don't panic the backend is just ass</p>
 </div>
