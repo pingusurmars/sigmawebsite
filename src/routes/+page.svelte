@@ -3,7 +3,10 @@
 
 
 <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-    <p class="text-white text-6xl">Hi!👋</p>
+    <p class="text-white text-6xl pb-4">Hi!👋</p>
+    <div class="py-6 bg-yellow-200 text-yellow-800 rounded-lg shadow-md flex items-center justify-center text-center">
+    <strong class="font-bold text-sm">⚠️ I might not recieve any emails anyone sends me on any address ending in @pingusurmars.xyz due to Google thinking I'm a bot. Any e-mails sent until the 16th may never end up being read as they're getting sent nowhere.</strong>
+    </div>
     <p class="text-white py-4">I'm PinguSurMars_ (or Pingu for short) and I make stuff in whatever language speaks the
         most to my soul.</p>
     <p class="text-white py-2">I mostly game or watch YouTube in my free time, and I sometimes decide randomly to code
