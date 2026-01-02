@@ -9,7 +9,7 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
         <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 dark:text-gray-400">© 2025 PinguSurMars_ <br> Website source code available under the GNU GPL v2 <a
+          <span class="text-sm text-gray-500 dark:text-gray-400">© 2025-2026 PinguSurMars_ <br> Website source code available under the GNU GPL v2 <a
                   class="underline" href="https://github.com/pingusurmars/sigmawebsite">here</a>
           </span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
