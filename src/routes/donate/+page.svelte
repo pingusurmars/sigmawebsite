@@ -23,7 +23,7 @@
             <ul class="list-disc list-inside">
                 <li>Myself</li>
             </ul>
-            <p class="py-4 italic">If you donated and want your name to be here, hit me up at pingu@pingusurmars.xyz or on
+            <p class="py-4 italic">If you donated and want your name to be here, hit me up at pingusurmars@outlook.jp or on
                 Discord (@pingusurmars) with proof to show you donated.</p>
         </div>
         <div>
