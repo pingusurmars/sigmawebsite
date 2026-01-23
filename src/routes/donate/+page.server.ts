@@ -5,18 +5,16 @@ export const load: PageServerLoad = async () => {
 
 	try {
 		// Fetch wallet stats from HashVault API
-		const response = await fetch(
-			`https://api.hashvault.pro/v3/monero/wallet/${walletAddr}/stats`
-		);
-		const data = await response.json();
+		const res = await fetch(`https://api.hashvault.pro/v3/monero/wallet/${walletAddr}/stats`);
+		const data = await res.json();
 
 		return {
-			moneroData: data
+			data
 		};
 	} catch (error) {
 		console.error('Error fetching Monero data:', error);
 		return {
-			moneroData: null
+			data: null
 		};
 	}
 };

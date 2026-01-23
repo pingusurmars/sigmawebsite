@@ -2,6 +2,7 @@
     import CodeBlock from "$lib/components/CodeBlock.svelte";
     import MoneroWidget from "$lib/components/MoneroWidget.svelte";
 
+    let { data } = $props();
     const walletAddr = `4AhTY6Xyr92FjiEn7iJ2kvBnrbHbzD8ZQ5CmNKGaJN4haQTpL9MH7Mk4oHdsu6YhMFMrr79UQQuinbVKMkzzsRsCG7SzSZj`;
 </script>
 
@@ -27,7 +28,7 @@
                 Discord (@pingusurmars) with proof to show you donated.</p>
         </div>
         <div>
-            <MoneroWidget />
+            <MoneroWidget {data} />
         </div>
     </div>
 </div>
