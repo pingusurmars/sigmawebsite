@@ -16,8 +16,8 @@
     <link href={favicon32} rel="icon" sizes="32x32" type="image/png">
     <link href={favicon16} rel="icon" sizes="16x16" type="image/png">
     <!-- Privacy-friendly analytics by Plausible -->
-    <script async src="https://stats.pingusurmars.xyz/js/pa-peddCbasgqhQsv_I2kVmm.js"></script>
-    <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}}; plausible.init()</script>
+    <script async src="https://schlongittyballifuck.pingusurmars.xyz/js/pa-peddCbasgqhQsv_I2kVmm.js"></script>
+    <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}}; plausible.init({endpoint: "https://schlongittyballifuck.pingusurmars.xyz/api/event"})</script>
     <link href={manifest} rel="manifest">
 </svelte:head>
 <Navbar/>
