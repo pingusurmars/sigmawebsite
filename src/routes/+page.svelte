@@ -14,7 +14,8 @@
         I also run a few services</a> here and there on an old PC that I call my "server" (he's old but works OK-ish for what I do)</p>
     <p class="text-white py-4">
         That's pretty much it, feel free to look around here in the other pages! (it's not like I can prevent you from doing it)</p>
-
+    <p class="text-white py-4">
+        Lastly, this website uses Plausible Analytics (selfhosted by me) which doesn't store cookies or process any kind of PII. If you still wanna opt out of it, use uBlock Origin in an MV2 supported browser ^^.</p>
     <p class="py-4 text-white">Here's a random video I have in my <a class="underline decoration-1" href="https://cdn.pingusurmars.xyz/brainrot/">brainrot collection</a>:</p>
     <video style="width: 20%; height: 20%" src="https://cdn.pingusurmars.xyz/random/" controls>
         <!-- SVELTE PLEASE REMOVE THE SUBTITLE REQUIREMENT NO DEAF PERSON IS GONNA COME UP AND WATCH SHITPOST KNOWING PERFECTLY WELL NOBODY CAPTIONS THAT ANYWAY -->
